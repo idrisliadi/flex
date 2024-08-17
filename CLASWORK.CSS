@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;}
+
+.flex-item{
+    display: flex;
+     padding-top: 50PX;
+     height: 350px;
+     color: white;
+     display: inline-block;
+     width: 300px;
+    }
+.sedans{
+    background-color: rgba(233, 157, 17, 0.863);
+   padding-left: 30px;
+
+}
+.suvs{background-color:rgba(1, 34, 1, 0.5);
+padding-left: 30px;}
+ 
+.luxury{
+    background-color: rgb(91, 119, 91);
+    padding-left: 30px;}
+.LEARN{
+    color: white;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px 40px;
+    margin-top: 50px;
+}
